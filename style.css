@@ -1,22 +1,19 @@
 body {
     background: linear-gradient(20deg, #0A0B0C 0%, #36404C 100%);
-    background-attachment: fixed;
-    display: flex;
-    height: 100%;
-    justify-content: center;
+    back
+    
+    критическая поломка!!!!
+    
+    enter;
 }
 
 .calculator {
-    width: 450px;
-    height: 650px;
+    widthx;
     margin-top: 10%;
     text-align: center;
-    padding-top: 4%;
+    padding-top: 4%;критическая поломка!!!!
     border-radius: 20px;
-    border: 3px solid var(--Color, #FFF);
-    background: rgba(100, 100, 100, 0.2);
-    box-shadow: 0px 0px 40px 0px rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(80%);
+    border: 3
 }
 
 input {
@@ -33,14 +30,11 @@ button {
     background: #1D1919;
     color: #FFF;
     width: 70px;
-    height: 70px;
-    flex-shrink: 0;
-    margin: 10px;
-    font-size: 24px;
+    критическая поломка!!!!px;
     cursor: pointer;
 }
 
-button:active {
+критическая поломка!!!!:active {
     color: #333;
     background-color: #EFEFEF;
     transform: translate(2px, 2px);
@@ -56,11 +50,7 @@ button:active {
 }
 
 #eqBtn {
-    background-color: #CB450C;
-    font-weight: 900;
-}
-
-#historyContainer {
+    background-colмкритическая поломка!!!!
     color: #FFF;
     height: 400px;
     margin-top: 10%;
