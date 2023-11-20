@@ -2,10 +2,10 @@ document.addEventListener('DOMContentLoaded', function () {
 	let display = document.getElementById('inputBox')
 	let buttons = document.querySelectorAll('button')
 	let history = []
-	let reg = /[A-Za-zA-Яа-яЁё]/g
+	let reg = /[A-Za-zA-Яа-яЁё]/g // запрет на ввод латиницы 
 
 	display.oninput = function () {
-		this.value = this.value.replace(reg, '')
+		this.value = this.value.replace(reg, '') 
 	}
 
 	display.addEventListener('keydown', function (event) {
@@ -21,6 +21,7 @@ document.addEventListener('DOMContentLoaded', function () {
 		const clickedButton = event.target
 		const buttonText = clickedButton.textContent
 
+// объявления функциональности клавиш
 		switch (buttonText) {
 			case '=':
 				calculateResult()
@@ -42,6 +43,8 @@ document.addEventListener('DOMContentLoaded', function () {
 				break
 		}
 	}
+
+// запрет на повторы символов
 
 	function updateDisplay(value) {
 		if (
